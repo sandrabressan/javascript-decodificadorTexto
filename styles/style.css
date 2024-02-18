@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+:root{
+    --cor-principal: #15297c;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fredoka', sans-serif;
+}
+
+body{
+    background-color: #e8f5ff;
+}
+
+.cabecalho > h1{
+    padding: 10px;
+    margin-left: 20px;
+    font-weight: 400;
+    color: var(--cor-principal);
+}
+
+.texto{
+    display: flex;
+    margin: 20px 50px;
+    justify-content: center;
+}
+
+textarea{
+    resize: none;
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 18px;
+}
+
+textarea:focus, input:focus, select:focus {
+    outline: 0;
+}
+
+.texto_entrada_area{
+   background-color:#e8f5ff;
+   color: #191970;
+}
+
+.texto_entrada > p {
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: var(--cor-principal);
+}
+
+.texto_botoes_entrada{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 5px;
+}
+
+.botao_criptografar{
+    padding: 8px 40px;
+    border: none;
+    border-radius: 15px;
+    font-size: 15px;
+    background-color: var(--cor-principal);
+    color: white;
+}
+
+.botao_descriptografar{
+    padding: 8px 40px;
+    border: none;
+    border-radius: 15px;
+    font-size: 15px;
+    background-color: #c3e3fd;
+    color: var(--cor-principal);
+}
+
+.texto_saida{
+    margin-left: 20px;
+}
+
+.texto_saida > div{
+    display: flex;
+    justify-content: center;
+}
+
+.texto_saida_area{
+    background-color: #0000FF;
+    color: white;
+}
+
+.texto_saida_area::placeholder{
+    color: white;
+}
+
+.botao_copiar{
+    margin-top: 30px;
+    padding: 8px 40px;
+    border: none;
+    border-radius: 15px;
+    font-size: 15px;
+    background-color: #0000FF;
+    color: white;
+}
+
+.rodape > p{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 22px;
+    color: var(--cor-principal);
+}

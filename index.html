@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <h1>Codifique ou Decodifique sua Mensagem!</h1>
+    </header>
+    <main class="texto">
+        <section class="texto_entrada">
+            <textarea type="text" id="textoEntrada" class="texto_entrada_area" rows="18" cols="55" placeholder="Digite sua mensagem..."></textarea>
+            <p>Atenção! Apenas letras minúsculas, sem acentos ou caracteres especiais.</p>
+            <div class="texto_botoes_entrada">
+                <button onclick="criptografar()" class="botao_criptografar">Criptografar</button>
+                <button onclick="descriptografar()" class="botao_descriptografar">Descriptografar</button>
+            </div>
+        </section>
+        <section class="texto_saida">
+            <textarea type="text" id="textoSaida" class="texto_saida_area" rows="18"cols="55" placeholder="Resultado..." ></textarea>
+            <div>
+                <button onclick="copiar()" class="botao_copiar">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer class="rodape">
+        <p>Desenvolvido por Sandra Caroline Bressan</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
