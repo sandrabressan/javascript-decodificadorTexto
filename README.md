@@ -4,7 +4,7 @@ Este é um aplicativo que permite codificar ou decodificar mensagens. Foi desenv
 
 ## Instruções de Uso
 
-1. Abra o arquivo HTML em um navegador da web. O aplicativo também pode ser acessado diretamente através da url:
+1. Abra o arquivo HTML em um navegador da web. O aplicativo também pode ser acessado diretamente através da url: https://sandrabressan.github.io/javascript-decodificadorTexto/
 2. Insira sua mensagem no campo `Digite sua mensagem...`
 3. Clique no botão "Criptografar" para codificar a mensagem.
 4. Clique no botão "Descriptografar" para decodificar a mensagem.
