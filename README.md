@@ -1,25 +1,24 @@
-# Decodificador de Texto
+# Text Decoder
 
-Este é um aplicativo que permite codificar ou decodificar mensagens. Foi desenvolvido durante o curso Iniciante em Programação T6 - ONE promovido pela Alura e Oracle.
+This is an application that allows you to encode or decode messages. It was developed during the Beginner Programming T6 course - ONE, sponsored by Alura and Oracle.
 
-## Instruções de Uso
+## Usage Instructions
 
-1. Abra o arquivo HTML em um navegador da web. O aplicativo também pode ser acessado diretamente através da url: https://sandrabressan.github.io/javascript-decodificadorTexto/
-2. Insira sua mensagem no campo `Digite sua mensagem...`
-3. Clique no botão "Criptografar" para codificar a mensagem.
-4. Clique no botão "Descriptografar" para decodificar a mensagem.
-5. O resultado será exibido no campo `Resultado...`
-6. Você pode copiar o resultado para a área de transferência clicando no botão "Copiar".
+1. Open the HTML file in a web browser. The application can also be accessed directly through the URL: https://sandrabressan.github.io/javascript-decodificadorTexto/
+2. Enter your message in the field `Enter your message...`
+3. Click the "Encrypt" button to encode the message.
+4. Click the "Decrypt" button to decode the message.
+5. The result will be displayed in the field `Result...`
+6. You can copy the result to the clipboard by clicking the "Copy" button.
 
-**Observação: ** Certifique-se de inserir apenas letras minúsculas, sem acentos ou caracteres especiais no campo `Digite sua mensagem...`
+**Note:** Make sure to enter only lowercase letters, without accents or special characters in the field `Enter your message...`
 
-## Estrutura do Projeto
+## Project Structure
 
-- `index.html`: Contém a estrutura HTML do aplicativo.
-- `style.css`: Folha de estilos para estilizar o aplicativo.
-- `script.js`: Contém o código JavaScript para realizar as operações de criptografia, descriptografia e cópia para a área de transferência.
+- `index.html`: Contains the HTML structure of the application.
+- `style.css`: Stylesheet for styling the application.
+- `script.js`: Contains the JavaScript code for performing encryption, decryption, and copying to the clipboard.
 
-## Contribuições
+## Contributions
 
-Contribuições são bem-vindas! Se encontrar algum problema ou tiver sugestões de melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
-
+Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
